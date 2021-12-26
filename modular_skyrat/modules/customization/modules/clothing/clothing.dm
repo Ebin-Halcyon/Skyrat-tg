@@ -9,6 +9,10 @@
 	var/icon/worn_icon_vox
 	/// The config type to use for greyscaled worn sprites for vox characters. Both this and greyscale_colors must be assigned to work.
 	var/greyscale_config_worn_vox
+	/// The config type to use for greyscaled worn sprites for teshari characters. Both this and greyscale_colors must be assigned to work.
+	var/greyscale_config_worn_teshari
+	/// Icon file for mob worn overlays, if the user is a teshari.
+	var/icon/worn_icon_teshari
 
 /obj/item/clothing
 	var/worn_icon_taur_snake
