@@ -209,15 +209,16 @@
 	acid = 45
 
 //Interdyne Clothing
-/obj/item/clothing/under/syndicate/skyrat/interdyne_turtleneck
+/obj/item/clothing/under/syndicate/skyrat/interdyne
 	name = "interdyne turtleneck"
 	desc = "A sleek white turtleneck with a hint of interdyne-green, appropriately paired with some charcoal-black cargo pants."
 	armor_type = /datum/armor/clothing_under/syndicate
 	icon_state = "ip_turtleneck"
 	can_adjust = TRUE
 	alt_covers_chest = TRUE
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
 
-/obj/item/clothing/under/syndicate/skyrat/interdyne_miner
+/obj/item/clothing/under/syndicate/skyrat/interdyne/miner
 	name = "interdyne jumpsuit"
 	desc = "A black and green Interdyne Pharmaceutics jumpsuit with reinforced fibers."
 	armor_type = /datum/armor/clothing_under/cargo_miner
@@ -225,7 +226,7 @@
 	can_adjust = TRUE
 	alt_covers_chest = FALSE
 
-/obj/item/clothing/under/syndicate/skyrat/interdyne_deckofficer
+/obj/item/clothing/under/syndicate/skyrat/interdyne/deckofficer
 	name = "deck officer's jumpsuit"
 	desc = "A black and green Interdyne Pharmaceutics uniform complete with a golden belt buckle."
 	armor_type = /datum/armor/clothing_under/syndicate
@@ -238,7 +239,7 @@
 	desc = "A white and green beret denoting one's allegiance to Interdyne Pharmaceutics."
 	greyscale_colors = "#FFFFFF#198019"
 
-/obj/item/clothing/head/hats/syndicate/interdyne_deckofficer_black
+/obj/item/clothing/head/hats/syndicate/interdyne/deckofficer/black
 	name = "black deck officer's cap"
 	desc = "A black officer's cap that demands discipline from the one who wears it."
 	icon_state = "ip_officercap_black"
@@ -246,7 +247,7 @@
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
 
-/obj/item/clothing/head/hats/syndicate/interdyne_deckofficer_white
+/obj/item/clothing/head/hats/syndicate/interdyne/deckofficer/white
 	name = "white deck officer's cap"
 	desc = "A white officer's cap that demands discipline from the one who wears it."
 	icon_state = "ip_officercap_white"
@@ -278,20 +279,20 @@
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
 	current_skin = "ip_officercloak" //prevents reskinning
 
-/obj/item/clothing/suit/toggle/labcoat/skyrat/interdyne_labcoat/black
+/obj/item/clothing/suit/toggle/labcoat/skyrat/interdyne/black
 	name = "interdyne black labcoat"
 	desc = "A black labcoat accented with interdyne-green colors."
 	icon_state = "ip_labcoatblack"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-/obj/item/clothing/suit/toggle/labcoat/skyrat/interdyne_labcoat/white
+/obj/item/clothing/suit/toggle/labcoat/skyrat/interdyne/white
 	name = "interdyne white labcoat"
 	desc = "A white labcoat accented with interdyne-green colors."
 	icon_state = "ip_labcoatwhite"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 
-/obj/item/clothing/suit/syndicate/interdyne_jacket
+/obj/item/clothing/suit/interdyne/jacket
 	name = "interdyne jacket"
 	desc = "A green high-visibility jacket bearing interdyne colors."
 	icon_state = "ip_armorlabcoat"
